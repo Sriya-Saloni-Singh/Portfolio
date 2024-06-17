@@ -42,11 +42,6 @@ body {
     margin-right: 1rem;
 }
 
-
-.programs{
-    display:flex ;
-    gap: 10px;
-}
 .skills{
     transition-duration: 0.2s;
 }

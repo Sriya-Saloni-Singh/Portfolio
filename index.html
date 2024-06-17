@@ -8,58 +8,8 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img src="./images/logo.png" alt="Logo" width="60" height="50" class="d-inline-block align-text-middle">
-        <b>Edu4All</b>
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav ms-auto">
-          <a class="nav-link active mt-2" aria-current="page" href="#">Home</a>
-          <a class="nav-link active mt-2" href="#">About</a>
-          <a class="nav-link active mt-2" href="#">Contact</a>
-          <a class="nav-link active" href="#"><button type="button" class="btn btn-outline-primary text-dark">Login</button></a>
-        </div>
-      </div>
-    </div>
-</nav> -->
-<!-- <body class="bg-black text-white">
-    <div class="d-flex justify-content-end align-items-center p-3">
-            <div class="navbar-nav d-inline-flex flex-row ms-auto row-gap-3">
-                <a class="nav-link active mt-2" aria-current="page" href="#">Home</a>
-                <a class="nav-link active mt-2" href="#Intro">About</a>
-                <a class="nav-link active mt-2" href="#Academic">Academic</a>
-                <a class="nav-link active mt-2" href="#Skills">Skills</a>
-                <a class="nav-link active mt-2" href="#Project">Project</a>
-            </div>
-        </div>
-        <div class="form-check form-switch">
-                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" onchange="toggleTheme()" checked>
-                <label class="form-check-label" for="flexSwitchCheckChecked">Dark</label>
-            </div>
-            <a href="#contact" class="btn btn-warning rounded-pill mx-3">Hire me</a>
-        </div>
-    </div> -->
 <body class="bg-black text-white">
-    <!-- <div class="d-flex justify-content-end align-items-center p-3 fixed-top">
-        <div class="navbar-nav d-inline-flex flex-row ms-auto me-3">
-            <a class="nav-link active mt-2 me-3" aria-current="page" href="#">Home</a>
-            <a class="nav-link active mt-2 me-3" href="#Intro">About</a>
-            <a class="nav-link active mt-2 me-3" href="#Academic">Academic</a>
-            <a class="nav-link active mt-2 me-3" href="#Skills">Skills</a>
-            <a class="nav-link active mt-2 me-3" href="#Project">Project</a>
-        </div>
-        <div class="form-check form-switch me-3">
-            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" onchange="toggleTheme()" checked>
-            <label class="form-check-label" for="flexSwitchCheckChecked">Dark</label>
-        </div>
-        <a href="#contact" class="btn btn-warning rounded-pill">Hire me</a>
-    </div> -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top sticky-top">
+    <!-- <nav class="navbar navbar-expand-lg navbar-dark fixed-top sticky-top">
         <div class="container-fluid">
             <div class="navbar-nav d-flex align-items-center">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -76,7 +26,41 @@
                 <a href="#contact" class="btn btn-warning rounded-pill">Hire me</a>
             </div>
         </div>
-    </nav>
+    </nav> -->
+    <nav class="navbar navbar-expand-lg bg-body-dark text-white fixed-top sticky-top">
+        <div class="container-fluid">
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-dark navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link text-white" href="#Intro">About</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link text-white" href="#Academic">Academic</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link text-white" href="#Skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#Project">Project</a>
+              </li>
+            </ul>
+            <div class="d-flex align-items-center ms-auto">
+                <div class="form-check form-switch me-3">
+                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" onchange="toggleTheme()" checked>
+                    <label class="form-check-label" for="flexSwitchCheckChecked">Dark</label>
+                </div>
+                <a href="#contact" class="btn btn-warning rounded-pill">Hire me</a>
+            </div>
+          </div>
+        </div>
+      </nav>
     
     
     <div class="container my-5">
@@ -138,14 +122,14 @@
                     <h1>My Skills</h1>
                     <p class="lead">I have a solid background in both frontend and backend development, equipped with a wide range of skills to handle diverse challenges in the tech industry. I am proficient in modern programming languages, frameworks, and tools, ensuring I deliver high-quality and efficient solutions.</p>
                 </div>
-                <div class="programs">
-                    <div class="skills text-center border border-3 p-2 rounded">
+                <div class="programs row">
+                    <div class="skills col-md-2 mx-md-4 my-1 text-center border border-3 p-2 rounded">
                         <h5>Programming skills</h5>
                         <img src="./image/images-20240614T073306Z-001/images/skills/python.png" class="skill-img">
                         <img src="./image/images-20240614T073306Z-001/images/skills/java.png" class="skill-img">
                         <img src="./image/images-20240614T073306Z-001/images/skills/c.png" class="skill-img">
                     </div>
-                    <div class="skills text-center border border-3 p-2 rounded">
+                    <div class="skills col-md-3 mx-md-4 my-1 text-center border border-3 p-2 rounded">
                         <h5>Frontend technologies</h5>
                         <img src="./image/images-20240614T073306Z-001/images/skills/html.png" class="skill-img">
                         <img src="./image/images-20240614T073306Z-001/images/skills/bootstrap.png" class="skill-img">
@@ -153,12 +137,12 @@
                         <img src="./image/images-20240614T073306Z-001/images/skills/react.png" class="skill-img">
                         <img src="./image/images-20240614T073306Z-001/images/skills/js.png" class="skill-img">
                     </div>
-                    <div class="skills text-center border border-3 p-2 rounded">
+                    <div class="skills col-md-3 mx-md-4 my-1 text-center border border-3 p-2 rounded">
                         <h5>frameworks</h5>
                         <img src="./image/images-20240614T073306Z-001/images/skills/django.png" class="skill-img">
                         <img src="./image/images-20240614T073306Z-001/images/skills/node.png" class="skill-img">
                     </div>
-                    <div class="skills text-center border border-3 p-2 rounded">
+                    <div class="skills col-md-2 mx-md-4 my-1 text-center border border-3 p-2 rounded">
                         <h5>Databases</h5>
                         <img src="./image/images-20240614T073306Z-001/images/skills/mongo.png" class="skill-img">
                         <img src="./image/images-20240614T073306Z-001/images/skills/mysql.png" class="skill-img">
