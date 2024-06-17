@@ -8,53 +8,123 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
+<!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="./images/logo.png" alt="Logo" width="60" height="50" class="d-inline-block align-text-middle">
+        <b>Edu4All</b>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto">
+          <a class="nav-link active mt-2" aria-current="page" href="#">Home</a>
+          <a class="nav-link active mt-2" href="#">About</a>
+          <a class="nav-link active mt-2" href="#">Contact</a>
+          <a class="nav-link active" href="#"><button type="button" class="btn btn-outline-primary text-dark">Login</button></a>
+        </div>
+      </div>
+    </div>
+</nav> -->
+<!-- <body class="bg-black text-white">
+    <div class="d-flex justify-content-end align-items-center p-3">
+            <div class="navbar-nav d-inline-flex flex-row ms-auto row-gap-3">
+                <a class="nav-link active mt-2" aria-current="page" href="#">Home</a>
+                <a class="nav-link active mt-2" href="#Intro">About</a>
+                <a class="nav-link active mt-2" href="#Academic">Academic</a>
+                <a class="nav-link active mt-2" href="#Skills">Skills</a>
+                <a class="nav-link active mt-2" href="#Project">Project</a>
+            </div>
+        </div>
+        <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" onchange="toggleTheme()" checked>
+                <label class="form-check-label" for="flexSwitchCheckChecked">Dark</label>
+            </div>
+            <a href="#contact" class="btn btn-warning rounded-pill mx-3">Hire me</a>
+        </div>
+    </div> -->
 <body class="bg-black text-white">
+    <!-- <div class="d-flex justify-content-end align-items-center p-3 fixed-top">
+        <div class="navbar-nav d-inline-flex flex-row ms-auto me-3">
+            <a class="nav-link active mt-2 me-3" aria-current="page" href="#">Home</a>
+            <a class="nav-link active mt-2 me-3" href="#Intro">About</a>
+            <a class="nav-link active mt-2 me-3" href="#Academic">Academic</a>
+            <a class="nav-link active mt-2 me-3" href="#Skills">Skills</a>
+            <a class="nav-link active mt-2 me-3" href="#Project">Project</a>
+        </div>
+        <div class="form-check form-switch me-3">
+            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" onchange="toggleTheme()" checked>
+            <label class="form-check-label" for="flexSwitchCheckChecked">Dark</label>
+        </div>
+        <a href="#contact" class="btn btn-warning rounded-pill">Hire me</a>
+    </div> -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top sticky-top">
+        <div class="container-fluid">
+            <div class="navbar-nav d-flex align-items-center">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" href="#Intro">About</a>
+                <a class="nav-link active" href="#Academic">Academic</a>
+                <a class="nav-link active" href="#Skills">Skills</a>
+                <a class="nav-link active" href="#Project">Project</a>
+            </div>
+            <div class="d-flex align-items-center ms-auto">
+                <div class="form-check form-switch me-3">
+                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" onchange="toggleTheme()" checked>
+                    <label class="form-check-label" for="flexSwitchCheckChecked">Dark</label>
+                </div>
+                <a href="#contact" class="btn btn-warning rounded-pill">Hire me</a>
+            </div>
+        </div>
+    </nav>
+    
+    
     <div class="container my-5">
         <!-- Intro -->
-        <div class="card bg-dark text-white content into-card">
+        <div id="Intro" class="card bg-dark text-white content into-card">
             <div class="card-body text-center">
-                <img class="user-img" src="./image/images-20240614T073306Z-001/images/person.jpg">
+                <img class="user-img" src="./image/images-20240614T073306Z-001/images/img.jpg">
                 <h1>Sriya Saloni Singh</h1>
                 <p class="lead fw-semibold">Freshers,B.Tech CSE</p>
-                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita corporis accusamus nisi reiciendis voluptatem ad, vitae, praesentium minima sunt magnam consectetur, quidem dolores. Dicta, officia! Quis ad cumque nostrum voluptatum accusantium illo fugiat, iste, sapiente quas veritatis ipsam, sequi voluptate praesentium dignissimos facilis aliquam ducimus mollitia vel repudiandae! Laborum aliquam voluptas numquam dolorum sunt magnam dolore inventore adipisci ab. Sunt tenetur assumenda debitis. Quo, deserunt omnis ipsum sit commodi temporibus doloremque. Natus eum doloremque architecto obcaecati tenetur temporibus, aliquam rem!
+                <p class="lead text-justify" style="text-align: justify">I'm a Front-End Developer with a passion for crafting visually appealing and user-friendly websites. I specialize in using HTML, CSS, and JavaScript to bring designs to life and make them interactive. With expertise in frameworks like React, I build dynamic and responsive web applications that work seamlessly on all devices. My focus is on delivering high-quality web solutions that provide an excellent user experience.
                 </p>
-                <a href="" class="btn btn-light rounded-pill mt-3">Download Resume <i class="bi bi-arrow-right"></i></a>
+                <a href="https://drive.google.com/file/d/1bQe0gv_Fnk7HxZT0gYYk_Ci_7kwY_Tlf/view?usp=sharing" class="btn btn-light rounded-pill mt-3">Download Resume <i class="bi bi-arrow-right"></i></a>
             </div>
         </div>
 
 
         <!-- Academic -->
-        <div class="card bg-dark text-white content aca-card my-5">
-            <div class="text-center" mb-3>
+        <div id="Academic" class="card bg-dark text-white content aca-card my-5">
+            <div class="text-center mt-4" mb-3>
                 <h1>Academic Records</h1>
-                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, quasi error veritatis quibusdam consequatur maxime corrupti ipsam suscipit quod consectetur iste a, nobis, sapiente distinctio.</p>
+                <p class="lead">An overview of my educational background, showcasing my dedication to learning and academic excellence.</p>
             </div>
-            <div class="table-responsive">
-                <table class="table table-bordered border-white table-dark">
+            <div class="table-responsive px-4">
+                <table id="acaTable" class="text-uppercase table table-bordered border-white table-dark">
                     <thead>
                         <th class="text-center">Qualification</th>
                         <th class="text-center">Board/University</th>
-                        <th class="text-center">Year/th>
+                        <th class="text-center">Year</th>
                         <th class="text-center">CGPA%</th>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>B.Tech</td>
-                            <td>Lorem ipsum dolor sit amet.</td>
+                            <td>B.TECH</td>
+                            <td>SILICON UNIVERSITY</td>
                             <td>2025</td>
-                            <td>95%</td>
+                            <td>80%</td>
                         </tr>
                         <tr>
-                            <td>H.S</td>
-                            <td>Lorem ipsum dolor sit.</td>
+                            <td>INTERMEDIATE</td>
+                            <td>DAV PUBLIC SCHOOL, JAGANNATH AREA, DERA, TALCHER</td>
                             <td>2021</td>
-                            <td>90%</td>
+                            <td>84.6%</td>
                         </tr>
                         <tr>
-                            <td>Secondary</td>
-                            <td>Lorem ipsum dolor sit.</td>
+                            <td>Matriculaion</td>
+                            <td>DAV PUBLIC SCHOOL, JAGANNATH AREA, DERA, TALCHER</td>
                             <td>2019</td>
-                            <td>85%</td>
+                            <td>79.4%</td>
                         </tr>
                     </tbody>
                 </table>
@@ -62,35 +132,47 @@
         </div>
 
         <!--Skills-->
-        <div class="card bg-dark text-white content aca-card my-5">
-            <div class="card-body p-5">
-                <div class="text-center mb-3">
+        <div id="Skills" class="card bg-dark text-white content aca-card my-5">
+            <div class="card-body p-4">
+                <div class="text-center mb-3 ">
                     <h1>My Skills</h1>
-                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, quasi error veritatis quibusdam consequatur maxime corrupti ipsam suscipit quod consectetur iste a, nobis, sapiente distinctio.</p>
+                    <p class="lead">I have a solid background in both frontend and backend development, equipped with a wide range of skills to handle diverse challenges in the tech industry. I am proficient in modern programming languages, frameworks, and tools, ensuring I deliver high-quality and efficient solutions.</p>
                 </div>
-                <div class="text-center">
-                    <img src="./image/images-20240614T073306Z-001/images/skills/bootstrap.png" class="skill-img">
-                    <img src="./image/images-20240614T073306Z-001/images/skills/c.png" class="skill-img">
-                    <img src="./image/images-20240614T073306Z-001/images/skills/css.png" class="skill-img">
-                    <img src="./image/images-20240614T073306Z-001/images/skills/django.png" class="skill-img">
-                    <img src="./image/images-20240614T073306Z-001/images/skills/html.png" class="skill-img">
-                    <img src="./image/images-20240614T073306Z-001/images/skills/java.png" class="skill-img">
-                    <img src="./image/images-20240614T073306Z-001/images/skills/js.png" class="skill-img">
-                    <img src="./image/images-20240614T073306Z-001/images/skills/mongo.png" class="skill-img">
-                    <img src="./image/images-20240614T073306Z-001/images/skills/mysql.png" class="skill-img">
-                    <img src="./image/images-20240614T073306Z-001/images/skills/node.png" class="skill-img">
-                    <img src="./image/images-20240614T073306Z-001/images/skills/python.png" class="skill-img">
-                    <img src="./image/images-20240614T073306Z-001/images/skills/react.png" class="skill-img">
+                <div class="programs">
+                    <div class="skills text-center border border-3 p-2 rounded">
+                        <h5>Programming skills</h5>
+                        <img src="./image/images-20240614T073306Z-001/images/skills/python.png" class="skill-img">
+                        <img src="./image/images-20240614T073306Z-001/images/skills/java.png" class="skill-img">
+                        <img src="./image/images-20240614T073306Z-001/images/skills/c.png" class="skill-img">
+                    </div>
+                    <div class="skills text-center border border-3 p-2 rounded">
+                        <h5>Frontend technologies</h5>
+                        <img src="./image/images-20240614T073306Z-001/images/skills/html.png" class="skill-img">
+                        <img src="./image/images-20240614T073306Z-001/images/skills/bootstrap.png" class="skill-img">
+                        <img src="./image/images-20240614T073306Z-001/images/skills/css.png" class="skill-img">
+                        <img src="./image/images-20240614T073306Z-001/images/skills/react.png" class="skill-img">
+                        <img src="./image/images-20240614T073306Z-001/images/skills/js.png" class="skill-img">
+                    </div>
+                    <div class="skills text-center border border-3 p-2 rounded">
+                        <h5>frameworks</h5>
+                        <img src="./image/images-20240614T073306Z-001/images/skills/django.png" class="skill-img">
+                        <img src="./image/images-20240614T073306Z-001/images/skills/node.png" class="skill-img">
+                    </div>
+                    <div class="skills text-center border border-3 p-2 rounded">
+                        <h5>Databases</h5>
+                        <img src="./image/images-20240614T073306Z-001/images/skills/mongo.png" class="skill-img">
+                        <img src="./image/images-20240614T073306Z-001/images/skills/mysql.png" class="skill-img">
+                    </div>
                 </div>
             </div>
         </div>
 
         <!-- Project -->
-        <div class="card bg-dark text-white content aca-card my-5">
-            <div class="card-body p-5">
+        <div id="Project" class="card bg-dark text-white content aca-card my-5">
+            <div class="card-body p-4">
                 <div class="text-center mb-3">
                     <h1>My Project</h1>
-                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, quasi error veritatis quibusdam consequatur maxime corrupti ipsam suscipit quod consectetur iste a, nobis, sapiente distinctio.</p>
+                    <p class="lead">Some of the projects.</p>
                 </div>
                 <div class="row mb-4 g-4">
                     <div class="col-md-4">
@@ -98,11 +180,11 @@
                     </div>
                     <div class="col-md-8">
                         <h3>GoHost Landing page</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus harum nam alias, enim reprehenderit incidunt optio aspernatur natus tempore neque, inventore corrupti aliquid deserunt sequi explicabo fuga ipsam earum id eveniet in nostrum, sit placeat laborum. Minus, delectus nam. Placeat, aliquam aut! Labore praesentium id et laudantium pariatur dicta. Reiciendis!</p>
+                        <p> This is a simple static landing page for hosting website where i learnt to use bootstrap and other css properties.</p>
                         <div class="tools">
                             <img src="./image/images-20240614T073306Z-001/images/skills/html.png">
                             <img src="./image/images-20240614T073306Z-001/images/skills/css.png">
-                            <img src="./image/images-20240614T073306Z-001/images/skills/js.png">
+                            <img src="./image/images-20240614T073306Z-001/images/skills/bootstrap.png">
                         </div>
                         <div>
                             <a href="" class="btn btn-sm btn-light">Live Preview</a>
@@ -112,15 +194,38 @@
                 </div>
                 <div class="row mb-4 g-4">
                     <div class="col-md-4">
-                        <img src="./image/images-20240614T073306Z-001/images/Screenshot 2024-06-14 142114.png" class="img-fluid h-100">
+                        <img src="./image/images-20240614T073306Z-001/images/Screenshot 2023-12-04 093535.png" class="img-fluid h-100">
                     </div>
                     <div class="col-md-8">
-                        <h3>Portfolio</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus harum nam alias, enim reprehenderit incidunt optio aspernatur natus tempore neque, inventore corrupti aliquid deserunt sequi explicabo fuga ipsam earum id eveniet in nostrum, sit placeat laborum. Minus, delectus nam. Placeat, aliquam aut! Labore praesentium id et laudantium pariatur dicta. Reiciendis!</p>
+                        <h3>BOOKHAVEN</h3>
+                        <p>BOOKHAVEN is a book store website that showcases a virtual bookstore, allowing users to explore and discover various books. It provides features such as browsing books by category, viewing new arrivals, accessing featured books, a blog section where readers can dive into thought-provoking articles, author interviews and book discussion, and a user authentication system for sign up and login functionality.
+                        </p>
                         <div class="tools">
                             <img src="./image/images-20240614T073306Z-001/images/skills/html.png">
                             <img src="./image/images-20240614T073306Z-001/images/skills/css.png">
                             <img src="./image/images-20240614T073306Z-001/images/skills/js.png">
+                            <img src="./image/images-20240614T073306Z-001/images/skills/node.png">
+                        </div>
+                        <div>
+                            <a href="" class="btn btn-sm btn-light">Live Preview</a>
+                            <a href="" class="btn btn-sm btn-light">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-4 g-4">
+                    <div class="col-md-4">
+                        <img src="./image/images-20240614T073306Z-001/images/Screenshot (51).png" class="img-fluid h-100">
+                    </div>
+                    <div class="col-md-8">
+                        <h3>THE SOULED STORE</h3>
+                        <p>This project is a clone of The Souled Store website, featuring multiple pages like the homepage, topwear , bottomwear , and more. The application is built using React and Chakra UI for the user interface and incorporates various functionalities like product filtering, sorting, adding items to the cart and wishlist , and more.
+                        </p>
+                        <div class="tools">
+                            <img src="./image/images-20240614T073306Z-001/images/skills/html.png">
+                            <img src="./image/images-20240614T073306Z-001/images/skills/css.png">
+                            <img src="./image/images-20240614T073306Z-001/images/skills/js.png">
+                            <img src="./image/images-20240614T073306Z-001/images/skills/node.png">
+                            <img src="./image/images-20240614T073306Z-001/images/skills/react.png">
                         </div>
                         <div>
                             <a href="" class="btn btn-sm btn-light">Live Preview</a>
@@ -132,11 +237,11 @@
         </div>
 
         <!-- Contact -->
-        <div class="card bg-dark text-white content contact-card my-5">
-            <div class="card-body p-5">
+        <div id=contact class="card bg-dark text-white content contact-card my-5">
+            <div class="card-body p-4">
                 <div class="text-center mb-3">
                     <h1>Get in Touch</h1>
-                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, quasi error veritatis quibusdam consequatur maxime corrupti ipsam suscipit quod consectetur iste a, nobis, sapiente distinctio.</p>
+                    <p class="lead">Feel free to get in touch to discuss collaborations or projects — I'm eager to connect!</p>
                 </div>
                 <div class="row g-4">
                     <div class="col-md-6">
@@ -149,14 +254,20 @@
                         </form>
                     </div>
                     <div class="col-md-6">
-                        <p class="mb-1"><i class="bi bi-geo-alt-fill fs-2">Lorem ipsum dolor sit.</i></p>
-                        <p class="mb-1"><i class="bi bi-phone-fill fs-2"> +1234567890</i></p>
-                        <p class="mb-1"><i class="bi bi-envelope-at fs-2"> jhon@djon</i></p>
-                        <p class="mb-1"><i class="bi bi-linkedin fs-2"> www.linkedin.in</i></p>
-                        <p class="mb-1"><i class="bi bi-github fs-2"> github</i></p>
+                        <p class="mb-1"><i class="bi bi-geo-alt-fill fs-4"> Singh Sahi, Talcher Town, Talcher, Odisha-759107</i></p>
+                        <p class="mb-1"><i class="bi bi-phone-fill fs-4"> 8249773516</i></p>
+                        <p class="mb-1"><i class="bi bi-envelope-at fs-4"> sriyasingh2003@gmail.com</i></p>
+                        <p class="mb-1"><i class="bi bi-linkedin fs-4"> <a href="www.linkedin.com/in/sriya-saloni-singh">LinkedIn</a></i></p>
+                        <p class="mb-1"><i class="bi bi-github fs-4"> <a href="https://github.com/Sriya-Saloni-Singh">GitHub</a></i></p>
                     </div>
                 </div>
-        
+            </div>
+        </div>
+    </div> 
+    <footer class="p-3 text-center">
+        <p>&copy; 2024 | Sriya Saloni Singh</p>
+
+    </footer>  
 
     <script src="./js/bootstrap.bundle.min.js"></script>
     <script src="./js/js-master.js"></script>

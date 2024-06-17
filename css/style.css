@@ -1,8 +1,8 @@
 .bg-black{
-    background-color: #01011C !important;
+    background-color: #00000b !important;
 }
 .bg-dark{
-    background-color: #30305a !important;
+    background-color: #26262b !important;
 }
 .into-card{
     margin-top:100px;
@@ -25,4 +25,32 @@
     height: 40px;
     width: 40px;
     margin: 8px;
+}
+
+
+body {
+    background-color: black;
+    color: white;
+}
+.navbar {
+    background-color: black;
+}
+.form-check-label {
+    color: white;
+}
+.navbar-nav .nav-link {
+    margin-right: 1rem;
+}
+
+
+.programs{
+    display:flex ;
+    gap: 10px;
+}
+.skills{
+    transition-duration: 0.2s;
+}
+.skills:hover{
+    transform: scale(1.1);
+    
 }
